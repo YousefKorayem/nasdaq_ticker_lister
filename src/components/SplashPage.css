@@ -1,0 +1,42 @@
+/* SplashPage.css */
+
+/* Ensure the entire page takes up the full height */
+.splash-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34; /* Dark background color */
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the Nasdaq logo */
+.splash-logo {
+  width: 150px; /* Adjust width as needed */
+  margin-bottom: 20px;
+}
+
+/* Styling for the heading */
+.splash-heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Style for the enter button */
+.splash-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.splash-button:hover {
+  background-color: #0056b3;
+}
