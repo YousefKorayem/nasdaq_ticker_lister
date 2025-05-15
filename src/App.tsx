@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Routes, Route } from 'react-router-dom';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import SplashPage from './components/SplashPage.tsx';
@@ -14,13 +15,10 @@ function App() {
   }
 
   return (
-    <>
-      {hasEntered ? (
-        <Dashboard/>
-      ) : (
-        <SplashPage onEnter={handleEnter}/>
-      )}
-    </>
+    <Routes>
+      <Route path="/" element={<SplashPage/>}/>
+      <Route path="/dashboard" element={<Dashboard/>}/>
+    </Routes>
   )
 }
 
