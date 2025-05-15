@@ -158,7 +158,7 @@ const Dashboard: React.FC = () => {
     return(
         <div className="d-flex flex-column vh-100">
             {/* Header*/}
-            <header className="bg-dark text-light p-3">
+            <header className="bg-dark p-3">
                 <div className="container d-flex justify-content-center">
                     <input
                         type="text"
