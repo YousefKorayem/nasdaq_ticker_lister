@@ -162,7 +162,7 @@ const Dashboard: React.FC = () => {
                 <div className="container d-flex justify-content-center">
                     <input
                         type="text"
-                        className="form-control bg-light w-50"
+                        className="form-control bg-light text-dark w-50"
                         placeholder="Search for a stock..."
                         value = {searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
