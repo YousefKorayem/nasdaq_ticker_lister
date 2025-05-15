@@ -2,6 +2,8 @@ import { useEffect, useState, useRef } from "react";
 import axios from 'axios';
 import { restClient } from '@polygon.io/client-js';
 
+const apiKey = import.meta.env.VITE_POLYGON_API_KEY;;
+
 const rest = restClient(
         "Z0XFAJcBFzm5wRbRe1ND12achddy_wsi",
         "https://api.polygon.io",

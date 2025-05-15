@@ -1,5 +1,6 @@
 {
   "name": "my_react_application",
+  "homepage": "https://YousefKorayem.github.io/nasdaq_ticker_lister",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@polygon.io/client-js": "^7.4.0",
