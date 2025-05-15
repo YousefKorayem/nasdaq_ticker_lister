@@ -180,7 +180,7 @@ const Dashboard: React.FC = () => {
                     <div className="row">
                         {tickers.length > 0 ? (
                             tickers.map((stock, index) => (
-                                <div className="col-md-3 col-sm-6 mb-4" key={index}>
+                                <div className="col-6 col-md-3 col-sm-6 mb-4" key={index}>
                                     <div className="card h-100 bg-dark text-light shadow-sm">
                                         <div className="card-body">
                                             <h5 className="card-title">{stock.name}</h5>
@@ -192,7 +192,7 @@ const Dashboard: React.FC = () => {
                         ) : (
                             Array.from({ length: 4 }).map((_, idx) => (
                                 <div
-                                    className="col-md-3 col-sm-6 mb-4"
+                                    className="col-6 col-md-3 col-sm-6 mb-4"
                                     style={{ visibility: 'hidden' }}
                                     key={`placeholder-${idx}`}
                                 >
